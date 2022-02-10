@@ -1,0 +1,20 @@
+input,
+select {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  height: 3.5rem;
+  padding: 0rem 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  color: #9f9f9f;
+}
+::placeholder {
+  color: #9f9f9f;
+}

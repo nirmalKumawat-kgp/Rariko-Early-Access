@@ -1,0 +1,22 @@
+.logoContainer {
+  height: 105px;
+  width: 122px;
+  background: url(/public/imag/rarikoLogo.png);
+}
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navLinks a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 3rem;
+}
