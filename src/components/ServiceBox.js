@@ -3,8 +3,13 @@ import React from "react";
 export default function ServiceBox(props) {
   return (
     <div
-      className="row servicebox"
-      style={{ border: "1px solid #FFFFFF", fontFamily: "Roboto, sans-serif" }}
+      className="row"
+      style={{
+        border: "1px solid #FFFFFF",
+        fontFamily: "Roboto, sans-serif",
+        margin: "0.5rem",
+        color: "rgba(255,255,255,0.7)",
+      }}
     >
       <div className="col-xl-8">
         <div

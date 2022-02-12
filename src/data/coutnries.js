@@ -1,5 +1,6 @@
 export const countryList = [
   "Select Your Country",
+  "India",
   "Afghanistan",
   "Albania",
   "Algeria",
@@ -102,7 +103,7 @@ export const countryList = [
   "Hong Kong",
   "Hungary",
   "Iceland",
-  "India",
+
   "Indonesia",
   "Iran (Islamic Republic of)",
   "Iraq",

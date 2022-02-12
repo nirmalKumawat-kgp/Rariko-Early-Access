@@ -7,7 +7,6 @@ export default function About() {
     <div
       className="container-fluid"
       style={{
-        background: "#07060C",
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
@@ -17,23 +16,36 @@ export default function About() {
     >
       <div className="container" style={{ paddingTop: "0" }}>
         <Typography
-          variant="h3"
+          variant="h4"
           style={{
             marginBottom: "5vh",
             textAlign: "center",
             color: "rgba(255,255,255,0.8)",
           }}
         >
-          About
+          ABOUT
         </Typography>
-        <div className="row">
+        <div
+          className="row"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-around",
+          }}
+        >
           <div className="col-md-6">
             <div
               className="container first"
               style={{ color: "white", textAlign: "justify" }}
             >
               <br />
-              <p style={{ "letter-spacing": "1px", fontFamily: "Roboto" }}>
+              <p
+                style={{
+                  "letter-spacing": "1px",
+                  fontFamily: "Roboto",
+                  fontSize: "1.25rem",
+                }}
+              >
                 At Rariko, we are building a platform which will help users
                 effectively manage their crypto currencies, NFTs and blockchain
                 domains at one place.
@@ -49,10 +61,7 @@ export default function About() {
             </div>
           </div>
           <div className="col-md-6">
-            <div
-              className="fancy container align-middle"
-              style={{ fontSize: "30px" }}
-            >
+            <div className="fancy container" style={{ fontSize: "30px" }}>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <ForList title="1" listItem="Cryptocurrencies" />

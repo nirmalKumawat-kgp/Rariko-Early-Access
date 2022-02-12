@@ -3,9 +3,11 @@ import React from "react";
 export default function ForList(props) {
   return (
     <div
-      className="row "
+      className="row justify-content-md-center "
       style={{
         fontFamily: "Roboto Condensed, sans-serif",
+        display: "flex",
+        justifyContent: "center",
       }}
     >
       <div

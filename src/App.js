@@ -16,11 +16,14 @@ const darkTheme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
-      <div>
+      <div style={{ backgroundColor: "#040508" }}>
         <Navbar />
         <Home />
         <About />
         <Services />
+      </div>
+      <div style={{ backgroundColor: "#040508" }}>
+        {" "}
         <ContactUs />
       </div>
     </ThemeProvider>

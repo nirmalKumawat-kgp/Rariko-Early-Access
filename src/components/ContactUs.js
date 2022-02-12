@@ -13,9 +13,9 @@ export default function Team() {
         <div className="col-md-4">
           <Typography
             variant="h3"
-            style={{ color: "rgba(255,255,255)", fontWeight: 500 }}
+            style={{ color: "rgba(255,255,255)", fontWeight: 400 }}
           >
-            <span style={{ color: "red" }}>Rari</span>Ko
+            <span style={{ color: "red" }}>RARI</span>KO
           </Typography>
           <div
             style={{
@@ -53,17 +53,7 @@ export default function Team() {
             </a>
           </div>
         </div>
-        <div className="col-md-4">
-          {" "}
-          <Typography
-            variant="body-2"
-            style={{ color: "rgba(255,255,255,0.9)" }}
-          >
-            Address: Rariko Technologies Private Limited, Pt No 570/261(P)
-            Kh-201, IDCO Pt no 1, Gothapatna, Bhubaneswar, Odisha, India
-            (751003)
-          </Typography>
-        </div>
+        <div className="col-md-4"></div>
         <div className="col-md-4 contactSection">
           <span>We're here</span>
           <span>Let's talk</span>

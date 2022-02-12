@@ -11,14 +11,14 @@ export default function Services() {
     >
       <div className="container" style={{ paddingTop: "50px" }}>
         <Typography
-          variant="h3"
+          variant="h4"
           style={{
-            marginTop: "3vh",
+            margin: "8vh 0 2vh 0",
             textAlign: "center",
             color: "rgba(255,255,255,0.8)",
           }}
         >
-          Services
+          SERVICES
         </Typography>
         <div className="row justify-content-md-center">
           <div className="col-sm-6">
